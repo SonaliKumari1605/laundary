@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 3.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    align-items:center;
+    position: fixed;
+}
+.logo{
+    float: left;
+    height: 2.7rem;
+    padding-right: 10rem;
+    position: absolute;
+    bottom: 0px;
+    left:0px
+}
+
+ul{
+    float: left;
+    list-style-type: none;
+    padding-right: 10rem;
+    padding-left:20rem ;
+}
+
+li{
+    float: left;
+    padding: 0rem 3rem;
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.username{
+    padding: 0.5rem 0.7rem;
+    color: rgb(87, 87, 248);
+    background-color: rgb(170, 219, 238);
+    border: none;
+    border-radius: 0.6rem;
+}
+
+.left{
+    position: absolute;
+    left: 4rem;
+    top: 10rem;
+}
+
+.laundary{
+    float: right;
+    height: 35rem;
+    /*position: absolute;
+    right:0;*/
+}
+
+h1{
+    color: darkgray;
+    font-size: 3rem;
+    padding-bottom: 0.1rem;
+}
+span{
+    color: rgb(117, 117, 245);
+}
+p{
+    color: darkgray;
+    padding-bottom: 1rem;
+}
+
+.book{
+    color: white;
+    background-color: rgb(104, 104, 255);
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3rem;
+    margin-left: 5rem;
+}
